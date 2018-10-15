@@ -17,7 +17,7 @@ object SparkPersistence {
      val sc = new SparkContext(conf)
 
     val inputRdd =
-      sc.parallelize(Array("this,is,a,ball","it,is,a,cat","julie,is,in,the,church "))
+      sc.parallelize(Array("this,is,a,ball","it,is,a,cat","Pragathi,is,in,the,temple "))
     val wordsRdd = inputRdd.flatMap(record => record.split(","))
     val wordLengthPairs = wordsRdd.map(word=> (word, word.length))
     val wordPairs = wordsRdd.map(word => (word,1))
