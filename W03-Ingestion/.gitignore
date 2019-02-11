@@ -13,6 +13,8 @@ src_managed/
 project/boot/
 project/plugins/project/
 /bin/
+/project/
+/target/
 
 # Scala-IDE specific
 .scala_dependencies
@@ -21,3 +23,4 @@ project/plugins/project/
 /.classpath
 /.project
 /project/
+/.settings/
