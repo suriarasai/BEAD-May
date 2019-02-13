@@ -1,0 +1,18 @@
+COMMANDS FOR MYSQL IN DATA/mysql folder scripts
+===============================================
+
+mysql -uroot -pcloudera
+
+mysql>show schemas;
+
+mysql>use mysql;
+
+mysql>show tables;
+
+mysql>source employees.sql
+
+mysql>show tables;
+
+mysql>select * from employees;
+
+Control C to Exit

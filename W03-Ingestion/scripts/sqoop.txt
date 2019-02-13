@@ -1,22 +1,3 @@
-COMMANDS FOR MYSQL IN DATA/mysql folder scripts
-===============================================
-
-mysql -uroot -pcloudera
-
-mysql>show schemas;
-
-mysql>use mysql;
-
-mysql>show tables;
-
-mysql>source employees.sql
-
-mysql>show tables;
-
-mysql>select * from employees;
-
-Control C to Exit
-
 SQOOP COMMANDS
 ==============
 
@@ -32,6 +13,8 @@ $ sqoop import \
 --table departments \
 --target-dir /employees/departments \
 --null-non-string '\\N'
+
+
 
 
 

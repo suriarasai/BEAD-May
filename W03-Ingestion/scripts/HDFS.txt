@@ -1,0 +1,15 @@
+HDFS Commands
+=============
+
+sudo -u hdfs hadoop fs -mkdir /loudacre
+
+sudo -u hdfs hadoop fs -put kb /loudacre/
+
+sudo -u hdfs hadoop fs -ls /loudacre/kb
+
+sudo -u hdfs hadoop fs -cat /loudacre/kb/KBDOC-00009.html | tail -n 20
+
+hadoop fs -get /loudacre/kb/KBDOC-00009.html ~/article.html
+
+less ~/article.html
+(to exit less mode - use instruction :q! to quit or esc in insert mode)
